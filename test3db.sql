@@ -7,8 +7,8 @@ CREATE TABLE roles(
 id integer primary key,
 name role_name length=60);
 
-INSERT IGNORE INTO roles(name) VALUES('ROLE_USER');
-INSERT IGNORE INTO roles(name) VALUES('ROLE_ADMIN');
+INSERT INTO roles(name) VALUES('ROLE_USER');
+INSERT INTO roles(name) VALUES('ROLE_ADMIN');
 
 CREATE TABLE users(
 id bigint primary key,
