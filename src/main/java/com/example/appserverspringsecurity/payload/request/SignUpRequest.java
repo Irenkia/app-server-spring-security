@@ -1,4 +1,4 @@
-package com.example.appserverspringsecurity.payload;
+package com.example.appserverspringsecurity.payload.request;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
